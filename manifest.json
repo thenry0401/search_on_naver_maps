@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Naver Maps Search",
+  "version": "1.0",
+  "description": "Search selected text on Naver Maps",
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+ },
+  "permissions": ["contextMenus"],
+  "background": {
+    "service_worker": "background.js"
+ },
+  "action": {
+    "default_title": "Naver Maps Search",
+    "default_icon": "icon48.png"
+ }
+}
